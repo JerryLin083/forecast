@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .weatherStatus {
+    @apply flex items-center gap-2;
+  }
+}
+
+@layer utilities {
+  .themeDefault {
+    @apply bg-zinc-200 text-black dark:bg-darkBgSecondary dark:text-darkText;
+  }
+  .flexCenter {
+    @apply flex justify-center items-center;
+  }
+  .flexBetween {
+    @apply flex justify-between items-center;
+  }
+}
